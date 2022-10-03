@@ -1,0 +1,18 @@
+file system
+  already integrated
+  
+transaction processing
+  but, can't support several users simultaneously.  = no concurrency control -> atomair, consistent, isolation, durable
+  atomair: all changes go through or none do.
+  consistent: changes have to go from consisten to consistent states. Consistent state based on integrity rules made when creating db.
+  isolation: the results of the transaction are invisible to other transactions untill it's complete/done. You can't see intermediate state.
+  durable: once committed it's permanent and safe from accidents/future system failures.
+ 
+finding your data and fast: indexing
+  fundaments of db: insert, update, delete
+  eg: search the db for account number xxxx = raw data crunching = bad !
+  
+Enter the Relational Database!
+
+  
+  
