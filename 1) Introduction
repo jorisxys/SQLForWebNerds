@@ -12,7 +12,13 @@ finding your data and fast: indexing
   fundaments of db: insert, update, delete
   eg: search the db for account number xxxx = raw data crunching = bad !
   
-Enter the Relational Database!
+Enter the Relational Database! (big spreadsheet multiple people can use at once)
+  each table is a spreadsheet
+  biggest innovation was the declarative language sql (squeel, sequal) 
   
+  ----create table mailing_list (
+            email           varchar(100) not null primary key,
+            name            varchar(100)
+       );
   
-  
+  you have both ddl and dml 
