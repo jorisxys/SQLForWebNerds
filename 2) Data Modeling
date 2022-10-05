@@ -1,0 +1,9 @@
+when making a database
+    what elements of the data you will store
+    how large each element can be
+    what kind of information each element can contain
+    what elements may be left blank
+    which elements are constrained to a fixed range
+    whether and how various tables are to be linked 
+    
+values can be true, false or null
