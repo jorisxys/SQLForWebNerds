@@ -7,3 +7,12 @@ when making a database
     whether and how various tables are to be linked 
     
 values can be true, false or null
+
+create table user_submitted_comments (
+	comment_id		integer primary key,
+	user_id			not null references users,
+	submission_time		date default sysdate not null,
+	ip_address		varchar(50) not null,
+	content			clob,
+	approved_p		char(1) check(approved_p in ('t','f'))
+);
